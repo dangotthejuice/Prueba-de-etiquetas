@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/WEB.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML, CSS, JavaScript</title>
+    <meta name="description" content="[Pagina ejemplo]">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Estudiante Maximo Diaz">
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!--ENCABEZADO-->
+        <header>
+            <h1>BIENVENIDOS</h1>
+        </header>
+        <!--NAVEGACION-->
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">inicio</a>
+                <a href="sobremi.html">Sobre Mi</a>
+                <a href="curso.html" class="active">Cursos</a>
+                <a href="contactos.html">Contactos</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <!--CONTENIDO-->
+        <section id="contenido">
+
+            <!--ARTICULOS-->
+            <article>
+                <h2 class="Experiencia"><i class="fa fa-graduation-cap"></i> Mi Aprendizaje unicamente en infotep</h2>
+                <article>
+
+                    </p>
+                    <img class="web" src="https://i.postimg.cc/C11NSBZV/cursos.jpg" alt="">
+                    <p>
+                    </p>
+                    <img class="web" src="https://i.postimg.cc/1XVrVkcC/cursos-2.jpg" alt="">
+                    <p>
+                </article>
+
+                <!--MENSAJE DE INSPIRACION-->
+                <article>
+
+                    <p class="mensaje">El sabio no dice todo lo que piensa pero piensa todo lo que dice..
+                    </p>
+
+                </article>
+
+
+            </article>
+
+            <div class="redes">
+                <h2>Sigueme en mi Redes Sociales</h2>
+
+                <!-- Agregamos font awesome icons -->
+                <a href="#" class="fa fa-linkedin-square" style="font-size:30px"></a>
+                <a href="#" class="fa fa-youtube-square" style="font-size:30px"></a>
+                <a href="#" class="fa fa-facebook-square" style="font-size:30px"></a>
+                <a href="#" class="fa fa-twitter-square" style="font-size:30px"></a>
+                <a href="#" class="fa fa-github-square" style="font-size:30px"></a>
+
+            </div>
+
+        </section>
+
+        <!--PUBLICIDAD-->
+        <aside>
+
+            <img src="https://i.postimg.cc/Vkwf0YsT/tenor.gif" alt="">
+            <br>
+            <h2>📊Que necesitas saber de ciberseguridad</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/sTe_k9IykLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+
+            <img src="https://i.postimg.cc/N0kvhT1f/Hacker-Hero-a1.png" alt="Foto"><br>
+
+        </aside>
+        <!--FIN PUBLICIDAD-->
+
+        <div class="clearfix"></div>
+
+        <!--FOOTER O PIE DE PAGINA-->
+        <footer>
+            <p class="footer"> @ 2022 pagina de uso estudiantil, todos los derechos reservados. <a href="https://www.linkedin.com/in/m%C3%A1ximo-daniel-diaz-quint%C3%ADn-1aab0113a/" target="_blank">Linkedin</a></p>
+        </footer>
+    </div>
+
+    <!--FUNCION JAVASCRIPT PARA EL MENU-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <!--FIN FUNCION JAVASCRIPT PARA EL MENU-->
+
+</body>
+
+</html>
